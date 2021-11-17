@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: black;
+}
+
+.header_ul {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.header_li {
+    margin-right: 26px;
+    list-style-type: none;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+
+.text {
+    background: #C4C4C4;
+    margin-bottom: 10px;
+
+}
+
+.botton {
+    background: #C4C4C4;
+    width: 142px;
+    height: 28px;
+    margin: 9px 0 37px;
+}
