@@ -1,0 +1,199 @@
+body {
+    font-family: 'Open Sans';
+}
+
+.container {
+    max-width: 1090px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 50px 0;
+}
+
+.header_ul {
+    text-align: center;
+}
+
+.header_li {
+    display: inline;
+    margin-right: 47px;
+}
+
+.header_li>a {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.bg_section {
+    background-image: url('../img/Group\ 4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 112px 0;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 36px;
+    color: #162C38;
+    padding: 10px 122px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: white;
+}
+
+.bg_text {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.section_text {
+    background: #5C98AB;
+}
+
+.text {
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 726px;
+    margin: 0 auto;
+    padding: 135px 0;
+}
+
+.container_form {
+    max-width: 420px;
+    margin: 40px auto;
+
+}
+
+.input_holder .input {
+    width: 100%;
+}
+
+.input_holder {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.input {
+    padding: 36px 0 12px 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.input::placeholder {
+    color: black;
+
+}
+
+.label {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.button-order {
+    background-color: #5C98AB;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px 0;
+    border: none;
+}
+
+.text_center {
+    position: relative;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    max-width: 746px;
+    margin: 0 auto;
+    padding: 135px 0;
+}
+
+.text_center::before {
+    position: absolute;
+}
+
+
+.square {
+    position: relative;
+}
+
+.square-text {
+    position: relative
+}
+
+.square1 {
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    left: 0px;
+    top: 100px;
+}
+
+.square2 {
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    left: 0px;
+    top: 280px;
+}
+
+.square3 {
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    right: 0px;
+    top: 170px;
+    background: #BFDEFB;
+}
+
+.text-circle {
+    max-width: 696px;
+    position: relative;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+       margin: 0 auto;
+    padding: 135px 0;
+}
+
+.text-circle:before {
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    background: #5C98AB;
+    border-radius: 50%;
+    left: 20px;
+    top: 80px;
+}
+
+.text-circle:after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #BFDEFB;
+    border-radius: 50%;
+    right: -120px;
+    top: 300px;
+}
