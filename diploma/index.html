@@ -13,10 +13,12 @@
         integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./Новая папка/wow js/animate.css">
+<link rel="stylesheet" href="./css/modal.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header header-sticky">
         <div class="container header_container">
             <div class="logo">
                 <div>
@@ -48,6 +50,161 @@
             </nav>
         </div>
     </header>
+    <section class="header">
+        <div class="container header-wrapper">
+            <div>
+                <h1 class="title1">
+                    Build stunning websites & apps.
+                </h1>
+                <p class="header_text">Create live segments and target the right people for messages based on their
+                    behaviors.</p>
+                <div class="button-container">
+                    <button class="button">
+                        Get Started
+                    </button>
+                    <button class="button button-white">
+                        Learn More
+                </div>
+            </div>
+            <div><img src="./img/header.png" alt="">
+            </div>
+        </div>
+    </section>
+      <div class="cont-all">
+        <div class="all">
+            <div class="container cont-all-container">
+                <div class="column">
+                    <h2 class="Features-titile">Features</h2>
+                    <h1 class="Easily">Easily find leads and customers</h1>
+                    <p class="Send">Send one-off and automated email, push, and in-app messages to people. Create better
+                        stories.
+                    </p>
+                    <div class="cont-features">
+                        <div class="bord-logo">
+                            <div class="bord bord-active">
+                                <div>
+                                    <img src="./logo/compas.svg" alt="">
+                                    <a class="link" href="#">Acquire new customers
+                                    </a>
+                                </div>
+                                <p>Everything you need to start building – including open-source code, documentation.
+                                </p>
+                            </div>
+                            <div class="bord">
+                                <div>
+                                    <img src="./logo/bild.svg" alt="">
+                                    <a class="link" href="#">Engage users
+                                    </a>
+                                </div>                               
+                            </div> 
+                            <div class="bord">
+                                <div>
+                                    <img src="./logo/home.svg" alt="">
+                                    <a class="link" href="#">Develop across platforms
+                                    </a>
+                                </div>                                
+                            </div>
+                            <!-- <div><img src="./logo/bild.svg" alt="">
+                                <h2>Engage users
+                                </h2>
+                                <div>
+                                    <img src="./logo/home.svg" alt="">
+                                </div>
+
+                                <div>
+                                    <h2>Develop across platforms
+                                    </h2>
+                                </div>-->
+                                <div class="eye">
+                                    <img src="./img/ouch.png" alt="">
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="Invision">
+                    <img src="./img/Invision Screen.png" alt="Invision Screen">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="alarm">
+        <div class="container alarm-flex">
+            <img class="alarm-img" src="./img/alarm.svg" alt="pic alarm">
+            <div>
+                <p class="alarm-title">Team Inbox</p>
+                <h4 class="alarm-text2">Manage conversations</h4>
+                <p class="alarm-text3">One place to manage and respond to all conversations with leads and users.
+                    Receive messages from leads.</p>
+                <div class="comment">
+                    <p>“Great widgets. Great selection. Great design and <span class="alarm-bold">easy to
+                            implement.</span> Definitely a huge time saver
+                        for
+                        a web developer!”</p>
+                    <div class="alarm-logo">
+                        <div class="alarm-comment">
+                            <div> <img src="./logo/Profile Image.svg"">
+                            </div>
+                    <div class=" comment-info">
+                                <p class="comment2">Viella Malkovich</p>
+                                <p class="comment3">Creative Director at Johnson</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" busy">
+        <div class="container busy-flex">
+            <div>
+                <p class="text-mini text-mini__blue">Communicate Better</p>
+                <h3 class="title-inner">Built for busy small teams</h3>
+                <p class="text-inner">Three products that can be used independently or combined together for
+                    your
+                    company’s needs.</p>
+                <div>
+                    <button class="button">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img src="./img/handphone.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="container info-flex">
+            <div>
+                <p class="info_p"> <span> Subscriptions.</span> Foundation works with the tools and services you already
+                    use every day.
+                </p>
+                <div>
+                    <a class="info_link" href="">Learn more about subscriptions</a></div>
+            </div>
+            <div>
+                <p class="info_p"><span>Felxible Hours.</span> Get started with our simple snippet of JavaScript or easy
+                    to install
+                    SDKs for iOS and Android.
+                </p>
+                <div>
+                    <a class="info_link" href="">Get more info about hours</a></div>
+            </div>
+            <div>
+                <p class="info_p"><span>Fast Communication.</span> We offer measures like 2FA and SSO to ensure the
+                    safety of your
+                    data.
+                </p>
+                <div>
+                    <a class="info_link" href="">Communication guidelines</a></div>
+            </div>
+        </div>
+    </section>
     <main>
         <section class="main_section">
             <div class="container main_container">
@@ -83,7 +240,7 @@
                 <button class="button2">
                     Get Started
                 </button>
-                <button class="button_Learn">
+                <button id="modal-button" class="button_Learn">
                     Learn More
                 </button>
             </div>
@@ -121,24 +278,167 @@
                 <img src="./logo/logo6.png" alt="pic Google">
             </div>
         </section>
+        <section class="about">
+            <div class="container">
+                <div class="about-item_container">
+                    <div class="about-items">
+                        <div>
+                            <p class="about-position">Front-End Developer
+                            </p>
+                            <p class="about-icon"> >
+                            </p>
+                        </div>
+                        <p>Los Angeles / Remote</p>
+                    </div>
+                    <div class="about-items">
+                        <div>
+                            <p class="about-position">Community Manager
+                            </p>
+                            <p class="about-icon"> >
+                            </p>
+                        </div>
+                        <p>New York / Full-Time</p>
+                    </div>
+                    <div class="about-items">
+                        <div>
+                            <p class="about-position">UX/UI Designer
+                            </p>
+                            <p class="about-icon"> >
+                            </p>
+                        </div>
+                        <p>New York / Full-Time</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="container">
             <div class="surface">
                 <h1 class="surface_title">All Surfaces Covered</h1>
                 <p class="surface_p">IOON kills bacteria on your hands, food, tables, laptops, you name it</p>
             </div>
             <div class="pic2">
-                <div class="pic3"><img src="./img/Apple.svg" alt="pic"></div>
-                <div class="pic3"><img src="./img/bus.svg" alt="pic"></div>
-                <div class="pic3"><img src="./img/man.svg" alt="pic"></div>
-                <div class="pic3"><img src="./img/hand.svg" alt="pic"></div>
-                <div class="pic3"><img src="./img/phone.svg" alt="pic"></div>
-                <div class="pic3"><img src="./img/kid.svg" alt="pic"></div>
-                <div class="pic3"><img src="./img/dog.svg" alt="pic"></div>
-                             
+                <div style="display: flex; align-items: center;">
+                    <div> <img style="max-width: 100%;" class="pic3" src="./img/Apple.svg" alt="pic"></div>
+                    <div> <img style="max-width: 100%;" class="pic3" src="./img/bus.svg" alt="pic"></div>
+                    <div> <img style="max-width: 100%;" class="pic3" src="./img/ma.svg" alt="pic"></div>
+                    <div> <img style="max-width: 100%;" class="pic3" src="./img/hand.svg" alt="pic"></div>
+                    <div> <img style="max-width: 100%;" class="pic3" src="./img/phone.svg" alt="pic">
+                    </div>
+                    <div> <img style="max-width: 100%;" class="pic3" src="./img/kid.svg" alt="pic"></div>
+                    <div> <img style="max-width: 100%;" class="pic3" src="./img/dog.svg" alt="pic">
+                    </div>
+                </div>
+        </section>
+        <section class="bg-grey">
+            <div class="container free-flex">
+                <img class="animation-img" src="./img/window.png" alt="pic window">
 
+                <div>
+                    <h4 class="free-title">Start your free trial.</h4>
+                    <p class="free-text">Get notified about company updates, news and blog posts. We hate spam.</p>
+                    <form action="">
+                        <input placeholder="Enter your email" class="free-input" required type="text">
+                        <button class="button">
+                            Get Started
+                        </button>
+                        <p class="text-buttom">Free 14-day trial · Easy setup · Cancel any time. Check out <a
+                                href="">Terms of Use.</a> </p>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="container footer-flex">
+            <div class="">
+                <div class="logo">
+                    <div>
+                        <img src="./logo/Icon.svg" alt="Icon pic">
+                    </div>
+                    <div>
+                        <p class="logo-bold">
+                            Foundation
+                        </p>
+                        <p class="logo-regular">
+                            Startup landing template
+                        </p>
+                    </div>
+                </div>
+                <p class="footer-wibsite">Foundation is a website template for startups and small teams. It helps to
+                    build a website in no
+                    time.</p>
+                <div class="footer-img">
+                    <div>
+                        <a href=""> <img src="./logo/Google Play.svg" alt=""></a>
+                    </div>
+                    <div> <a href=""> <img src="./logo/AppStore.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="footer-title">Product</h1>
+                <div class="footer-text">
+                    <p>Acquire Users
+                    </p>
+                    <p>Content Marketing
+                    </p>
+                    <p> Website Templates
+                    </p>
+                    <p> Customer Management
+                    </p>
+                    <p> Virtual Inbox</p>
+                </div>
+            </div>
+            <div>
+                <h1 class="footer-title">Company</h1>
+                <div class="footer-text">
+                    <p>About Foundation
+                    </p>
+                    <p>Brand Guidelines
+                    </p>
+                    <p>Press Kit
+                    </p>
+                    <p>Support</p>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-end">
+            <ul class="footer-ul">
+                <li class="footer-li">Terms</li>
+                <li class="footer-li">Privacy</li>
+                <li class="footer-li">License</li>
+            </ul>
+
+            <div class="footer-ul">
+                <div class="footer-logo"> <img src="./logo/icon-twitter.svg" alt=""></div>
+                <div class="footer-logo"> <img src="./logo/icon-fb.svg" alt=""></div>
+                <div class="footer-logo"> <img src="./logo/LinkedIn.svg" alt=""></div>
+            </div>
+        </div>
+<div class="modal-overlay">
+    <div class="modal">
+        <div class="modal-content">
+            <div>
+                <img src="./img/alarm.svg" alt="">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia nam molestias odio qui beatae fuga!</p>
+        </div>
+        <p class="close">
+            x
+        </p>
+    </div>
+
+</div>
+    </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/modal.js"></script>
 </body>
 
 </html>
