@@ -8,6 +8,16 @@ $(this).next('p').slideToggle(300)
 })
 
 
+$('.slider').slick({
+    autoplay: true,
+    autoplaySpeed: 5000,
+    dots:true,
+
+});
+
+
+
+
 $('.busy').parallax({imageSrc:'https://catherineasquithgallery.com/uploads/posts/2021-03/1614646965_14-p-sovremennii-fon-dlya-fotoshopa-17.jpg',
 speed: 0.01
 });
